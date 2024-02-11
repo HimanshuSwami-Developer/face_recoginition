@@ -20,9 +20,9 @@
 # tqdm====4.51.0
 # urllib3====1.25.11
 # wincertstore====0.2
-flask 
-opencv-python
+flask == 3.0.1
+opencv-python == 4.9.0.80
 face_recognition
-numpy 
+numpy ==1.26.3
 # from PIL import Image
-urllib.request
+urllib.request==2.1.0
