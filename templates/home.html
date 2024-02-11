@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FACE_RECOGINITION</title>
+</head>
+<body>
+    <form action="/get-text" method="post">
+        <select name="subject" id="">
+        {%for person in data %}
+        <option value="{{person.name}}">{{person.name}}</option>
+        
+        <!-- <img src="{{ person.photoUrl }}" width="100px"> -->
+        <!-- {{person.name}} -->
+        {%endfor%}
+      </select>
+      <input type="date" placeholder="dd-mm-yyyy" name="date" onchange="">
+      <input type="submit" value="Go">
+    </form>
+      
+</body>
+</html>
