@@ -21,7 +21,7 @@
 # urllib3====1.25.11
 # wincertstore====0.2
 flask 
-cv2
+opencv-python
 face_recognition
 numpy 
 # from PIL import Image
